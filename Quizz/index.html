@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Quizz Culture générale</h1>
+    <div class="container-global">
+        <form class="form-quizz">
+            <div class="question-block">
+                <h4>Quel est le langage informatique le plus courant utilisé pour écrire les pages web ?</h4>
+                <div>
+                    <input type="radio" name="q1" id="HTML" value="a"/>
+                    <label for="HTML">HTML (Hypertext Markup Language)</label>
+                </div>
+                <div>
+                    <input type="radio" name="q1" id="HTTP" value="b"/>
+                    <label for="HTTP">HTTP (Hypertext Transfer Protocol)</label>
+                </div>
+                <div>
+                    <input type="radio" name="q1" id="Java" value="c"/>
+                    <label for="Java">Java</label>
+                </div>
+            </div>
+            <div class="question-block">
+                <h4>Qu’est-ce qu’une adresse IP ?</h4>
+                <div>
+                    <input type="radio" name="q2" id="ip1" value="a"/>
+                    <label for="ip1">Un numéro qui identifie chaque matériel informatique (ordinateur, routeur, imprimante) connecté à un réseau informatique</label>
+                </div>
+                <div>
+                    <input type="radio" name="q2" id="ip2" value="b"/>
+                    <label for="ip2">Le protocole de communication utilisé sur Internet</label>
+                </div>
+                <div>
+                    <input type="radio" name="q2" id="ip3" value="c"/>
+                    <label for="ip3">L’adresse d’un site web, commençant par "http://"</label>
+                </div>
+            </div>
+            <div class="question-block">
+                <h4>Comment appelle-t-on un logiciel dont l’utilisateur doit rétribuer l’auteur s’il veut continuer à l’utiliser après une période de gratuité ?</h4>
+                <div>
+                    <input type="radio" name="q3" id="freeware" value="a"/>
+                    <label for="freeware">Un freeware</label>
+                </div>
+                <div>
+                    <input type="radio" name="q3" id="opensource" value="b"/>
+                    <label for="opensource">Un logiciel Open Source</label>
+                </div>
+                <div>
+                    <input type="radio" name="q3" id="shareware" value="c"/>
+                    <label for="shareware">Un shareware</label>
+                </div>
+            </div>
+            <div class="question-block">
+                <h4>Qu’est-ce qu’un CPU ?</h4>
+                <div>
+                    <input type="radio" name="q4" id="processeur" value="a"/>
+                    <label for="processeur">Un processeur</label>
+                </div>
+                <div>
+                    <input type="radio" name="q4" id="carte" value="b"/>
+                    <label for="carte">Une carte video</label>
+                </div>
+                <div>
+                    <input type="radio" name="q4" id="disque" value="c"/>
+                    <label for="disque">Un disque dur</label>
+                </div>
+            </div>
+            <div class="question-block">
+                <h4>Comment s’appelle un logiciel malveillant installé dans un ordinateur dans le but de collecter et transférer des informations sans que l’utilisateur en ait connaissance ?</h4>
+                <div>
+                    <input type="radio" name="q5" id="virus" value="a"/>
+                    <label for="virus">Un virus</label>
+                </div>
+                <div>
+                    <input type="radio" name="q5" id="spam" value="b"/>
+                    <label for="spam">Un spam</label>
+                </div>
+                <div>
+                    <input type="radio" name="q5" id="spyware" value="c"/>
+                    <label for="spyware">Un spyware</label>
+                </div>
+            </div>
+            <button type="submit">Validez vos choix !</button>
+        </form>
+        <div class="resultats">
+            <h2>Cliquez sur valider pour voir les résultat</h2>
+            <p class="aide"></p>
+            <p class="notes"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
